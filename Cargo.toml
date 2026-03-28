@@ -1,0 +1,10 @@
+[package]
+name = "ctrollers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3.5.1"
+libc = { version = "0.2.178", features = ["use_std"] }
+tokio = { version = "1.48.0", features = ["sync", "net", "macros", "rt", "rt-multi-thread", "time"] }
+tokio-util = "0.7.17"
